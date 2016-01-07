@@ -7,7 +7,7 @@
 		<!-- Displays the content of the current post -->
 		<?php the_content(); ?>
 		<!-- Displays the post thumbnail in the 'medium' format -->
-		<?php the_post_thumbnail( array(100, 100)); ?>
+		<?php the_post_thumbnail('large'); ?>
 	</div>
 	<aside class="entry-navigation clearfix">
 		<!-- Buttons to navigate to the previous and next posts -->
