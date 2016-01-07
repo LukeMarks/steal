@@ -1,0 +1,252 @@
+@font-face {
+    font-family: 'duru_sansregular';
+    src: url('../fonts/durusans-regular-webfont.eot');
+    src: url('../fonts/durusans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/durusans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/durusans-regular-webfont.woff') format('woff'),
+         url('../fonts/durusans-regular-webfont.ttf') format('truetype'),
+         url('../fonts/durusans-regular-webfont.svg#duru_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: no-repeat #ddd;
+}
+
+.page-container {
+	width: 600px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.mt-15 {
+	margin-top: 15px;
+}
+
+.clearfix:after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+/* 
+ * Header of the page
+ */
+
+.single .header-title {
+	font-size: 40px;
+}
+
+.page-container>header h2 {
+	color: #FD7C09;
+}
+
+.page-container>header a:hover {
+	text-decoration: none;
+}
+
+/* 
+ * Links 
+ */
+
+a {
+	text-decoration: none;
+	color: #444;
+	transition: 200ms all linear;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #000;
+}
+
+/*
+ * Fade In
+ */
+
+.fade {
+	opacity: 0;
+	transition: 300ms opacity linear;
+}
+
+.fade.in {
+	opacity: 1;
+}
+
+
+/* 
+ * Lists 
+ */
+
+ul {
+	text-align: center;
+	margin: 10px 0;
+	padding: 0;
+}
+
+ul li {
+	display: inline;
+	margin-left: 15px;
+}
+
+ul li:first-child {
+	margin-left: 0px;
+}
+
+/* 
+ * General Text 
+ */
+
+a, p, h1, h2, h3, h4, h5, h6 {
+	font-family: "duru_sansregular", "Calibri", Helvetica, Arial, Georgia, Courier, sans-serif;
+}
+
+h1, h2 {
+	text-align: center;
+	margin: 0;
+}
+
+
+header > h2 {
+	color: #343434;
+}
+
+/* 
+ * Article
+ */
+
+article {
+	border-bottom: 1px #999 solid;
+	padding: 0 15px;
+}
+
+.single article {
+	padding: 0;
+}
+
+article:last-child {
+	border: none;
+}
+
+article a:visited {
+	color: #555;
+}
+
+article a:hover {
+	color: #FD7C09;
+	text-decoration: none;
+}
+
+.entry-navigation .prev-post { float: left; }
+.entry-navigation .next-post { float: right; }
+
+.entry-content {
+	min-height: 100px;
+}
+
+article img {
+	float: right;s
+	position: relative;
+	top: 0px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+article h3 {
+	margin-top: 10px;
+}
+
+.entry-content img {
+	margin: 0 auto 16px auto;
+	display: block;
+	float: none;
+	
+}
+
+.entry-title {
+	font-size: 25px;
+}
+
+/* 
+ * Footer 
+ */
+
+.page-container > footer {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	border-top: 1px #999 solid;
+	background-color: #bbb;
+}
+
+footer p {
+	text-align: center;
+}
+
+/* 
+ * Buttons 
+ */
+
+.button {
+	display: inline-block;
+	padding: 5px 10px;
+	font-size: 14px;
+	line-height: 18px;
+	text-align: center;
+}
+
+.button:hover, .button:active, .button:focus, .button:visited, .button>a {
+	text-decoration: none;
+}
+
+.button-border {
+	border: 1px solid;
+}
+
+.button-xl {
+	font-size: 25px;
+	line-height: 35px;
+	padding: 5px 20px;
+}
+
+.button-primary {
+	background-color: #333;
+	border-color: #aaa;
+}
+
+.button-light {
+	background-color: #fff;
+}
+
+.button-shadow {
+	box-shadow: 0 3px 1px #999; 
+}
+
+.button-circle {
+	border-radius: 20px;
+}
+
+/* 
+ * Button Hover
+ */
+
+.button:hover {
+	color: #000;
+}
+
+.button-light:hover {
+	background-color: #f9f9f9;
+}
+
+.button-border:hover, .button-primary:hover {
+	background-color: #eee;
+}
+
